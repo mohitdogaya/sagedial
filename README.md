@@ -1,2 +1,2 @@
 # sagedial
-SageDial – A sleek website designed to showcase SageDial smartwatches with a focus on clean design and smooth user experience.
+SageDial – A simple and stylish static website built with HTML and CSS to showcase SageDial smartwatches.
