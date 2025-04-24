@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Account Page</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "League Spartan";
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .account-container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 300px;
+      width: 100%;
+    }
+
+    .account-container h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .account-container img {
+      width: 100px;
+      height: 50px;
+      margin: 5px;
+      padding: 5px;
+    }
+
+    .account-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .account-buttons a {
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: white;
+      background-color: #f7c922;
+      transition: background .3s ease;
+    }
+
+    .account-buttons a:hover {
+      background-color: #e09c08;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="account-container">
+    <h2>Welcome</h2>
+    <img src="text.svg" alt="logo">
+    <!-- <img src="text.svg" alt="logo" style="width: 100px; margin: 10px; padding: 5px;"> -->
+    <div class="account-buttons">
+      <a href="singin.html">Sign In</a>
+      <a href="singup.html">Sign Up</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
